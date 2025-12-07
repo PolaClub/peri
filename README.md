@@ -1,20 +1,9 @@
 <p align="center">
     <img src="./public/assets/icon/favicon.ico" alt="Logo" width="80" height="80">
-  <h3 align="center">Peri</h3>
+  <h3 align="center">Poli</h3>
   <p align="center">
-    The Period Tracker App
+    The Period Tracker App (The fork of [Peri](https://irasoro.github.io/peri-website/))
   </p>
-  <h1 align="center">
-    <a href="https://irasoro.github.io/peri/" style="text-decoration: none;">
-      <img src="https://img.shields.io/badge/Demo-eae7ff?logo=&logoColor=grey&style=for-the-badge" alt="Demo">
-    </a>
-    <a href="https://github.com/IraSoro/peri/releases/latest" style="text-decoration: none;">
-      <img src="https://img.shields.io/badge/Download-4c3b9d?&style=for-the-badge" alt="Download">
-    </a>
-    <a href="https://irasoro.github.io/peri-website/" style="text-decoration: none;">
-      <img src="https://img.shields.io/badge/Website-c0b6f2?&style=for-the-badge" alt="Website">
-    </a>
-  </h1>
 </p>
 
 ### About the project
