@@ -80,7 +80,7 @@ services:
       - NODE_ENV=production
       - DATABASE_URL=postgresql://peri_user:peri_password@db:5432/peri_db
       - PORT=3001
-      - FRONTEND_URL=http://localhost:8080
+      - FRONTEND_URL=* # CORS origin for production frontend
     depends_on:
       db:
         condition: service_healthy
