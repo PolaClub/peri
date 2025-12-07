@@ -24,6 +24,14 @@ services:
     build:
       context: .
       target: production
+      args:
+        - VITE_STORAGE_MODE=${VITE_STORAGE_MODE:-local}
+        - VITE_API_BASE_URL=${VITE_API_BASE_URL:-http://localhost:3001/api}
+        - VITE_APP_VERSION=${VITE_APP_VERSION:-v2.6.6}
+        - VITE_FEATURE_USE_CUSTOM_VERSION_UPDATE=${VITE_FEATURE_USE_CUSTOM_VERSION_UPDATE:-true}
+        - VITE_FEATURE_DEMO_MODE=${VITE_FEATURE_DEMO_MODE:-false}
+        - VITE_FEATURE_BETA_LANGUAGES=${VITE_FEATURE_BETA_LANGUAGES:-true}
+        - VITE_FEATURE_NOTIFICATIONS=${VITE_FEATURE_NOTIFICATIONS:-true}
     ports:
       - "5173:80"
     environment:

@@ -48,7 +48,7 @@ To run the production build:
 docker compose --profile production up -d
 ```
 
-This will start the production-optimized version on `http://localhost:8080`.
+This will start the production-optimized version on `http://localhost:5173`.
 
 ### Clean Up
 
