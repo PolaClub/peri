@@ -2,7 +2,7 @@
     <img src="./public/assets/icon/favicon.ico" alt="Logo" width="80" height="80">
   <h3 align="center">Poli</h3>
   <p align="center">
-    The Period Tracker App (The fork of <a href="https://irasoro.github.io/peri-website/">Peri</a>
+    The Period Tracker App (The fork of <a href="https://irasoro.github.io/peri-website/">Peri</a>)
   </p>
 </p>
 
