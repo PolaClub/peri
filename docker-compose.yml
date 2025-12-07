@@ -17,17 +17,19 @@ services:
     depends_on:
       - backend
     container_name: peri-dev
+    profiles:
+      - development
 
   peri-prod:
     build:
       context: .
       target: production
     ports:
-      - "8080:80"
+      - "5173:80"
     environment:
       - NODE_ENV=production
     depends_on:
-      - backend
+      - backend-prod
     container_name: peri-prod
     profiles:
       - production
@@ -52,6 +54,8 @@ services:
         condition: service_healthy
     command: npm run dev
     container_name: peri-backend
+    profiles:
+      - development
 
   backend-prod:
     build:
