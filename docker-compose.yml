@@ -56,6 +56,8 @@ services:
         condition: service_healthy
     command: npm run dev
     container_name: peri-backend
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     profiles:
       - development
 
@@ -75,6 +77,8 @@ services:
       db:
         condition: service_healthy
     container_name: peri-backend-prod
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     profiles:
       - production
 
