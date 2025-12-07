@@ -454,7 +454,7 @@ export const Menu = (props: MenuProps) => {
             style={{ fontSize: "13px" }}
             color="medium"
           >
-            Peri - The Period Tracker App
+            Poli - The Period Tracker App
           </IonLabel>
           <IonLabel
             style={{ fontSize: "13px" }}
